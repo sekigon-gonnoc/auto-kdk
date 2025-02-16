@@ -1,0 +1,146 @@
+/dts-v1/;
+#include <nordic/nrf52840_qiaa.dtsi>
+
+#include <dt-bindings/zmk/matrix_transform.h>
+
+
+/ {
+	model = "AKDK_BT1";
+	compatible = "akdk_bt1";
+
+	chosen {
+		zephyr,code-partition = &code_partition;
+		zephyr,sram = &sram0;
+		zephyr,flash = &flash0;
+		zmk,battery = &vbatt;
+	};
+
+	akdk_d: connector {
+		compatible = "seeed,xiao-gpio";
+		#gpio-cells = <2>;
+		gpio-map-mask = <0xffffffff 0xfff80001>;
+		gpio-map-pass-thru = <0 0x7fffe>;
+		gpio-map
+			= <1 0 &gpio0 10 0>
+			, <2 0 &gpio0 9 0>	
+			, <3 0 &gpio1 0 0>	
+			, <4 0 &gpio0 24 0>
+			, <5 0 &gpio0 22 0>
+			, <6 0 &gpio0 20 0>
+			, <7 0 &gpio0 15 0>
+			, <8 0 &gpio0 13 0>
+			, <9 0 &gpio0 12 0>	
+			, <10 0 &gpio1 9 0>	
+			, <11 0 &gpio0 8 0>
+			, <12 0 &gpio0 6 0>
+			, <13 0 &gpio0 26 0>
+			, <14 0 &gpio0 31 0>
+			, <15 0 &gpio0 29 0>
+			, <17 0 &gpio1 15 0>
+			, <18 0 &gpio1 13 0>
+			;
+	};
+
+
+    leds {
+        compatible = "gpio-leds";
+        blue_led: led_0 {
+            gpios = <&gpio0 18 GPIO_ACTIVE_HIGH>;
+        };
+    };
+
+	vbatt: vbatt {
+		compatible = "zmk,battery-voltage-divider";
+		io-channels = <&adc 2>; 
+		output-ohms = <2000000>;
+		full-ohms = <(2000000 + 1000000)>;
+	};
+
+	pinctrl {
+		spi0_default: spi0_default {
+			group1 {
+				psels = <NRF_PSEL(SPIM_SCK, 1, 9)>,
+					<NRF_PSEL(SPIM_MOSI, 0, 10)>,
+					<NRF_PSEL(SPIM_MISO, 1, 6)>;
+			};
+		};
+
+		spi0_sleep: spi0_sleep {
+			group1 {
+				psels = <NRF_PSEL(SPIM_SCK, 1, 9)>,
+					<NRF_PSEL(SPIM_MOSI, 0, 10)>,
+					<NRF_PSEL(SPIM_MISO, 1, 6)>;
+				low-power-enable;
+			};
+		};
+	};
+	
+};
+
+
+&adc {
+	status = "okay";
+};
+
+&gpiote {
+	status = "okay";
+};
+
+&gpio0 {
+	status = "okay";
+};
+
+&gpio1 {
+	status = "okay";
+};
+
+&spi0 {
+    compatible = "nordic,nrf-spim";
+    pinctrl-0 = <&spi0_default>;
+    pinctrl-1 = <&spi0_sleep>;
+    pinctrl-names = "default", "sleep";
+};
+
+zephyr_udc0: &usbd {
+	status = "okay";
+};
+
+&flash0 {
+	/*
+	 * For more information, see:
+	 * http://docs.zephyrproject.org/latest/devices/dts/flash_partitions.html
+	 */
+	partitions {
+		compatible = "fixed-partitions";
+		#address-cells = <1>;
+		#size-cells = <1>;
+
+		sd_partition: partition@0 {
+			label = "softdevice";
+			reg = <0x00000000 0x00026000>;
+		};
+		code_partition: partition@26000 {
+			label = "code_partition";
+			reg = <0x00026000 0x000c6000>;
+		};
+
+		/*
+		 * The flash starting at 0x000ec000 and ending at
+		 * 0x000f3fff is reserved for use by the application.
+		 */
+
+		/*
+		 * Storage partition will be used by FCB/LittleFS/NVS
+		 * if enabled.
+		 */
+		storage_partition: partition@ec000 {
+			label = "storage";
+			reg = <0x000ec000 0x00008000>;
+		};
+
+		boot_partition: partition@f4000 {
+			label = "adafruit_boot";
+			reg = <0x000f4000 0x0000c000>;
+		};
+	};
+};

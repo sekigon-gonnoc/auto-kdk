@@ -1,0 +1,14 @@
+identifier: akdk_bt1
+name: akdk_bt1
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+supported:
+  - adc
+  - usb_device
+  - ble
+  - ieee802154
+  - pwm
+  - watchdog
