@@ -1,11 +1,11 @@
 # Auto-Keyboard-Design-Kit
 
-<a href="https://auto-kdk.pages.dev/" target="_blank"> <img src="./icon.svg" width="200px"></img></a>
+<a href="https://auto-kdk.pages.dev/" target="_blank"> <img src="./icon.svg" width="200px" /></a>
 
 [Auto-KDK](https://auto-kdk.pages.dev/)はキーボード自動設計ツールおよび専用のコントローラボードです。
 キー配置を指定することで、基板・ケース・ファームウェアの設定を作成できます。
 
-[作例](./garalley.md)
+[作例](./gallery.md)
 
 ## Auto-KDKコントローラ
 
