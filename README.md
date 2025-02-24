@@ -365,6 +365,11 @@ Auto-KDKが出力したzipファイルを展開し、中身をGitHubにプッシ
 > 
 > ![](img/batter-connector.png)
 
+コントローラボードに付いているレールを、ペンチなどを使って折り取ります。
+
+|![](img/wired-controller-cut.png)|![](img/wireless-controller-cut.png)|
+|-|-|
+
 
 コンスルーを使ってコントローラボードを基板に取り付けます。
 
@@ -375,7 +380,8 @@ Auto-KDKが出力したzipファイルを展開し、中身をGitHubにプッシ
 
 キーピッチ19mmの場合はコントローラの外側の穴を使います。キーピッチが1mm狭まるごとに穴を1つ内側にずらしてください。
 
-![](img/insert-controller-board.png)
+|![](img/insert-controller-board.png)|![](img/wireless-controller-set.png)|![](img/wired-controller-set.png)|
+|-|-|-|
 
 ボトムケースを取り付けます。ボトムケースの爪をトップケースの窪みに押しあてながら押し込んでください。
 
