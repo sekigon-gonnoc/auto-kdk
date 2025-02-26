@@ -75,6 +75,15 @@ Li-Poバッテリーの使用上の注意をよく確認したうえで、適切
 * ピンセット
 * はんだごて
 
+## ツールの説明
+
+- [基本設定](manual/BaseConfig.md)
+- [マトリクスエディタ](manual/MatrixEditor.md)
+- [モジュールエディタ](manual/ModuleEditor.md)
+- [配置エディタ](manual/PlacementEditor.md)
+- [基板エディタ](manual/PcbEditor.md)
+- [ケースエディタ](manual/CaseEditor.md)
+
 ## チュートリアル
 
 ### Auto-KDKにアクセスする
