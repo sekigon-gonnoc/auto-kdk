@@ -2,11 +2,7 @@
 
 <a href="https://auto-kdk.pages.dev/" target="_blank"> <img src="./icon.svg" width="200px" /></a>
 
-
-
-https://github.com/user-attachments/assets/8a7a1064-80b7-41f0-8f65-5b69f9e7e190
-
-
+https://github.com/user-attachments/assets/19c3c397-2813-4e6a-957a-ece394ead538
 
 [Auto-KDK](https://auto-kdk.pages.dev/)はキーボード自動設計ツールおよび専用のコントローラボードです。
 キー配置を指定することで、基板・ケース・ファームウェアの設定を作成できます。
