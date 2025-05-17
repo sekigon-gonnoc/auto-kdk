@@ -1,6 +1,6 @@
 # トラックボール
 
-親指操作用の34mmトラックボールを配置できます。
+親指操作用の34mmトラックボールを配置できます。 [サンプル](../sample/34key-split-col-staggerd-dual-trackball.json)
 
 ## 追加で必要な部品
 
