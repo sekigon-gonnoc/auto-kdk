@@ -267,7 +267,7 @@ PCBAせずに基板だけ発注する場合はJLC3DPで製造するケースと�
 
 ![](img/save-pcb-to-cart.png)
 
-JLCPCBではダイオードとMXスイッチを実装(PCBA)した状態まで製造してもらうこともできます。Choc用ソケットも実装してもらうにはあらかじめJLCPCBに部品を送付する必要があります。
+JLCPCBではダイオードとMXソケットを実装(PCBA)した状態まで製造してもらうこともできます。Choc用ソケットも実装してもらうにはあらかじめJLCPCBに部品を送付する必要があります。
 
 PCBAする場合はPCB Assemblyを有効にし、`Bottom side`を選択します。
 
