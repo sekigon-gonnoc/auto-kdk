@@ -1,6 +1,6 @@
 # トラックボール
 
-親指操作用の34mmトラックボールを配置できます。 [サンプル](../sample/34key-split-col-staggerd-dual-trackball.json)
+親指操作用の34mm or 25mmトラックボールを配置できます。 [サンプル](../sample/34key-split-col-staggerd-dual-trackball.json)
 
 ## 追加で必要な部品
 
@@ -8,9 +8,9 @@
 
 |部品|数|備考|
 |-|-|-|
-|トラックボール(34mm)|1|センサーは赤LEDなので、赤系統が反応しやすいです|
+|トラックボール(34mm or 25mm)|1|センサーは赤LEDなので、赤系統が反応しやすいです|
 |2mmセラミックボール|3|支持球用|
-|14mmマウス|1|https://nogikes.booth.pm/items/6520217|
+|14mmマウスセンサーモジュール|1|https://nogikes.booth.pm/items/6520217|
 |FFCケーブル(0.5mmピッチ, 6ピン, 同一面)|1|長さはトラックボールからコントローラまでのマンハッタン距離+50mm くらいあれば十分だと思います。|
 
 ## 組み立てに必要な道具
@@ -28,7 +28,7 @@
 
 ## レイアウトの指定
 
-`Placement Editor`でボールの位置と角度を指定します。
+`Placement Editor`でボールの位置、角度、バリエーション（25mm or 34mm）を指定します。
 `PCB Editor`でみたときにトラックボールを示す枠線が他の枠線と交差しないようにしてください。
 
 |![](img/trackball-placement-ok.png)|![](img/trackball-placement-ng.png)|
