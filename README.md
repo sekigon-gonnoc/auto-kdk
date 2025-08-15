@@ -35,7 +35,7 @@ https://github.com/user-attachments/assets/19c3c397-2813-4e6a-957a-ece394ead538
 | 対応ファームウェア   | [ZMK Firmware](https://github.com/zmkfirmware/zmk) |
 | IO                   | 18(うち4点は拡張ポートと共用)                      |
 | ブートローダ起動方法 | 電源スイッチをOFFにした状態でUSB接続               |
-| 対応バッテリー       | Li-Poバッテリー(1S, 4.2V) <sup>*1</sup>            |
+| 対応バッテリー       | Li-Poバッテリー(1S, 3.7V) <sup>*1</sup>            |
 | バッテリーコネクタ   | PHコネクタ、2ピン                                  |
 | 充電IC               | TP4057(4.2V, 200mA設定) <sup>*2</sup>              |
 | 最大バッテリーサイズ | 6mm x 31mm x 52mm                                  |
