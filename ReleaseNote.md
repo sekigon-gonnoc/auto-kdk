@@ -1,6 +1,11 @@
 
 # Release Note
 
+## 2025/08/20
+
+* Gateron Low Profile Switch 3.0に対応
+* 30mm円形トラックパッドに対応
+
 ## 2025/07/13
 
 * 25mmトラックボールに対応

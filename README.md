@@ -137,7 +137,7 @@ ctrlを押しながら方向キーを押すと0.01Uずつ、shiftを押しなが
 | ![](img/move-key.png) | ![](img/rotate-key.png) |
 | --------------------- | ----------------------- |
 
-親指だけロープロファイルのスイッチにしたい場合は`Module Editor`で`variant`を`Choc V2`にします。
+親指だけロープロファイルのスイッチにしたい場合は`Module Editor`で`variant`を`Choc V2`または`Gateron LP 3.0`にします。
 
 | ![](img/select-choc-v2.png) | ![](img/pcb-placement.png) |
 | --------------------------- | -------------------------- |
@@ -269,7 +269,7 @@ PCBAせずに基板だけ発注する場合はJLC3DPで製造するケースと�
 
 ![](img/save-pcb-to-cart.png)
 
-JLCPCBではダイオードとMXソケットを実装(PCBA)した状態まで製造してもらうこともできます。Choc用ソケットも実装してもらうにはあらかじめJLCPCBに部品を送付する必要があります。
+JLCPCBではダイオードとMXソケット(MX,GLP3スイッチに対応)を実装(PCBA)した状態まで製造してもらうこともできます。Choc用ソケットも実装してもらうにはあらかじめJLCPCBに部品を送付する必要があります。
 
 PCBAする場合はPCB Assemblyを有効にし、`Bottom side`を選択します。
 
