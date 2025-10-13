@@ -1,6 +1,14 @@
 
 # Release Note
 
+## 2025/10/13
+
+* [グリッド変形機能](/manual/GridDeformation.md)を追加
+
+## 2025/10/08
+
+* [YUZU Custom Keycaps](https://yuzukeycaps.com?aff=autokdk)へのレイアウト出力に対応
+
 ## 2025/08/20
 
 * Gateron Low Profile Switch 3.0に対応
