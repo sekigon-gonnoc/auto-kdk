@@ -4,6 +4,8 @@
 
 グリッド変形機能では、下記に示す概念図のように、基準点を中心とした同心円状にキーを配置します。
 
+<div><video controls src="https://github.com/user-attachments/assets/fb9055c4-2398-4c2f-a6c4-4b6404450f52"></video></div>
+
 
 |![](img/grid-deformation-y.png)|![](img/grid-deformation-x.png)|
 |-|-|
