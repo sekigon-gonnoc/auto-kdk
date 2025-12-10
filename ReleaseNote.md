@@ -1,6 +1,10 @@
 
 # Release Note
 
+## 2025/12/10
+
+* 40mm円形[トラックパッド](/manual/Trackpad.md)に対応
+
 ## 2025/10/13
 
 * [グリッド変形機能](/manual/GridDeformation.md)を追加
