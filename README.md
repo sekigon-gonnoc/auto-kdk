@@ -453,7 +453,7 @@ Auto-KDKが出力したzipファイルを展開し、中身をGitHubにプッシ
 初期状態ではキーマップは空になっています。
 有線版コントローラでは[vial](https://vial.rocks)を、無線版コントローラでは[ZMK Studio](https://zmk.studio/)を使ってキーマップを設定できます。
 
-分割・無線構成では左手側がCentralとなっているため、左手側をUSBケーブルで接続して設定してください。
+分割・無線構成では通常、左手側がCentralとなっているため、左手側をUSBケーブルで接続して設定してください。ただし、トラックボールなどの拡張モジュールを右手側に配置した場合は右側がCentralとなります。
 
 初期状態のキーマップを変更したい場合は、ソースコードに記入してファームウェアをビルドする必要があります。
 ソースコードを直接編集するほか、有線版コントローラでは[vial-keymap-c-editor](https://vial-keymap-c-editor.pages.dev/)、無線版コントローラでは[keymap-editor](https://nickcoutsos.github.io/keymap-editor/)を使ってソースコードを編集することもできます。
