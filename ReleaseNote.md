@@ -1,6 +1,10 @@
 
 # Release Note
 
+## 2025/02/16
+
+* 無線用のファームウェアをzmkfirmware v0.3に変更
+
 ## 2025/12/28
 
 * 人差し指[トラックボール](/manual/TrackBall.md)に対応
