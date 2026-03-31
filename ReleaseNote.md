@@ -1,6 +1,10 @@
 
 # Release Note
 
+## 2026/03/31
+
+* [ポインティングスティック](manual/PointingStick.md)に対応
+
 ## 2026/02/16
 
 * 無線用のファームウェアをzmkfirmware v0.3に変更
