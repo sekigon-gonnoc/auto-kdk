@@ -6,7 +6,7 @@ https://github.com/user-attachments/assets/19c3c397-2813-4e6a-957a-ece394ead538
 
 [Auto-KDK](https://auto-kdk.pages.dev/)はキーボード自動設計ツールおよび専用のコントローラボードです。
 キー配置を指定することで、基板・ケース・ファームウェアの設定を作成できます。
-トラックボール・トラックパッド・ポインティングスティックも配置できます。
+[トラックボール](manual/TrackBall.md)・[トラックパッド](manual/Trackpad.md)・[ポインティングスティック](manual/PointingStick.md)も配置できます。
 
 [作例](./gallery.md)
 

@@ -1,6 +1,11 @@
 
 # Release Note
 
+## 2026/08/14
+
+* [マルチタッチトラックパッドジェネレータ](https://multi-touch-trackpad-generator.pages.dev/)を組込、任意サイズの矩形トラックパッドに対応
+  * [説明](manual/Trackpad.md)
+
 ## 2026/03/31
 
 * [ポインティングスティック](manual/PointingStick.md)に対応
